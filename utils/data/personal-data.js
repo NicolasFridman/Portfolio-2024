@@ -1,17 +1,17 @@
 export const personalData = {
   name: "NICOLAS FRIDMAN",
-  profile: '/profile.png',
+  profile: '/profile.jpeg',
   designation: "Full Stack Developer",
-  description: "My name is NICOLAS FRIDMAN. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "My name is NICOLAS FRIDMAN. I am an enthusiastic programmer. I am a quick learner and I am always looking for new ways to improve my skills. I am passionate about exploring new technologies and facing new challenges. I enjoy teamwork; collaborating and learning from others. I am convinced that learning never ends. I have a great interest in Full Stack development and user experience. My main skill is based on JavaScript, and I use it to create intuitive and user-friendly interfaces. If you are looking for an enthusiastic, proactive and willing-to-learn developer, don't hesitate to contact me.",
   email: 'nicofri2001@gmail.com',
   //phone: '+8801608797655',
   address: 'Santa Fe, Argentina ',
-  github: 'https://github.com/said7388',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  github: 'https://github.com/NicolasFridman',
+  //facebook: 'https://www.facebook.com/abusaid.riyaz/',
+  linkedIn: 'https://www.linkedin.com/in/nicolas-fridman-b25941283/',
+  //twitter: 'https://twitter.com/said7388',
+  //stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
+  //leetcode: "https://leetcode.com/said3812/",
+  //devUsername: "said7388",
+  resume: "https://drive.google.com/file/d/1nx6phFintm2ItdPP61ltqAcsK97czwKN/view"
 }

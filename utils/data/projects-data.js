@@ -1,18 +1,18 @@
 import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
+import devBook from '/public/image/devBookLogo.png';
 import realEstate from '/public/image/real-estate.jpg';
 import travel from '/public/image/travel.jpg';
 
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
+        name: 'DevBooks',
+        description: "Me and my team built a programming book's app. We had to creat client and admin profiles. It is posible to search by name or filter all the books, add to favourites or to the cart. You can also buy the same book multiple times and see the history of buys. Once you already bought one, you are gonna recive an email with the buy confirmation. To make that we worked on javascript with the help of Google Books API. For the design part we used MaterialUI and Bulma; and for the backend we used NodeJS.",
+        tools: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express.js', 'PostgreSQL', 'Sequelize', 'React', 'Vite JS', 'Material UI', 'Google Books API', 'ANTD', 'JWT'],
+        role: 'Full Stack Developer',
+        code: 'https://github.com/Francisco-Villanueva/eccomerce-book',
         demo: '',
-        image: crefin,
+        image: devBook,
     },
     {
         id: 2,

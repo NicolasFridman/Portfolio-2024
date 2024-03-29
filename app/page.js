@@ -33,7 +33,9 @@ export default async function Home() {
       <Skills />
       <Projects />
       <Education />
-      <Blog blogs={blogs} />
+{      
+//      <Blog blogs={blogs} />
+}
       <ContactSection />
     </>
   )

@@ -8,27 +8,27 @@ import { toast } from 'react-toastify';
 
 function ContactForm() {
   const [input, setInput] = useState({
-    name: '',
-    email: '',
+    from_name: '',
+    email_id: '',
     message: '',
   });
   const [error, setError] = useState({
-    email: false,
+    email_id: false,
     required: false,
   });
 
   const checkRequired = () => {
-    if (input.email && input.message && input.name) {
+    if (input.email_id && input.message && input.from_name) {
       setError({ ...error, required: false });
     }
   };
 
   const handleSendMail = async (e) => {
     e.preventDefault();
-    if (!input.email || !input.message || !input.name) {
+    if (!input.email_id || !input.message || !input.from_name) {
       setError({ ...error, required: true });
       return;
-    } else if (error.email) {
+    } else if (error.email_id) {
       return;
     } else {
       setError({ ...error, required: false });
@@ -44,8 +44,8 @@ function ContactForm() {
       if (res.status === 200) {
         toast.success('Message sent successfully!');
         setInput({
-          name: '',
-          email: '',
+          from_name: '',
+          email_id: '',
           message: '',
         });
       };
@@ -71,7 +71,7 @@ function ContactForm() {
               type="text"
               maxLength="100"
               required={true}
-              onChange={(e) => setInput({ ...input, name: e.target.value })}
+              onChange={(e) => setInput({ ...input, from_name: e.target.value })}
               onBlur={checkRequired}
               value={input.name}
             />
@@ -84,14 +84,14 @@ function ContactForm() {
               type="email"
               maxLength="100"
               required={true}
-              value={input.email}
-              onChange={(e) => setInput({ ...input, email: e.target.value })}
+              value={input.email_id}
+              onChange={(e) => setInput({ ...input, email_id: e.target.value })}
               onBlur={() => {
                 checkRequired();
-                setError({ ...error, email: !isValidEmail(input.email) });
+                setError({ ...error, email_id: !isValidEmail(input.email_id) });
               }}
             />
-            {error.email &&
+            {error.email_id &&
               <p className="text-sm text-red-400">Please provide a valid email!</p>
             }
           </div>

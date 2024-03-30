@@ -20,7 +20,7 @@ export const projectsData = [
         description: 'This project is a website for a professional makeup studio. Users can view information about available courses, book their place in a face-to-face or virtual course, and pay for it. The website offers information on different types of makeup, application techniques, and skincare tips. Users can also view a portfolio of images from the studio and the work done. I was responsible for developing the user interface of the website, using the following technologies: HTML5 for content structure, CSS3 and Tailwind for website design and aesthetics, Next.js for website interactivity and functionality, etc.',
         tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
         role: 'Front End Developer',
-        code: '',
+        code: 'https://github.com/Joairazabal/ng-ui',
         demo: '',
         image: travel,
     }

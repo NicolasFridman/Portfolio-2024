@@ -46,6 +46,7 @@ function Education() {
               {
                 educations.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>
+                    <a href={education.web} target="_blank">
                     <div className="p-3 relative text-white">
                       <Image
                         src="/blur-23.svg"
@@ -71,6 +72,7 @@ function Education() {
                         </div>
                       </div>
                     </div>
+                    </a>
                   </GlowCard>
                 ))
               }

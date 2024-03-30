@@ -41,6 +41,7 @@ function Experience() {
               {
                 experiences.map(experience => (
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
+                    <a href={experience.web} target="_blank">
                     <div className="p-3 relative">
                       <Image
                         src="/blur-23.svg"
@@ -68,6 +69,7 @@ function Experience() {
                         </div>
                       </div>
                     </div>
+                    </a>      
                   </GlowCard>
                 ))
               }

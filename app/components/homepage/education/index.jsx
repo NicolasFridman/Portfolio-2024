@@ -52,8 +52,8 @@ function Education() {
                         src="/blur-23.svg"
                         alt="Hero"
                         width={1080}
-                        height={50}
-                        className="absolute bottom-0 opacity-80"
+                        height={200}
+                        className="absolute bottom-0 opacity-80 max-h-14"
                       />
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">

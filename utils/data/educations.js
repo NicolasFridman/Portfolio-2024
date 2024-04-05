@@ -9,7 +9,7 @@ export const educations = [
   {
     id: 2,
     title: "Technician in business management and administration",
-    duration: "2014 - 2020",
+    duration: "Mar 2014 - Dec 2020",
     institution: "Monseñor C. Macagno",
     web: "https://complejomacagno.edu.ar/"
   }

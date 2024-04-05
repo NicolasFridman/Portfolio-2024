@@ -46,14 +46,14 @@ function Education() {
               {
                 educations.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>
-                    <a href={education.web} target="_blank">
+                    <a href={education.web} target="_blank" className="z-10">
                     <div className="p-3 relative text-white">
                       <Image
                         src="/blur-23.svg"
                         alt="Hero"
                         width={1080}
                         height={200}
-                        className="absolute bottom-0 opacity-80 max-h-24"
+                        className="absolute bottom-0 opacity-80 max-h-24 z-0"
                       />
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">

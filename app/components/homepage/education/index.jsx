@@ -52,7 +52,7 @@ function Education() {
                         src="/blur-23.svg"
                         alt="Hero"
                         width={1080}
-                        height={200}
+                        height={50}
                         className="absolute bottom-0 opacity-80"
                       />
                       <div className="flex justify-center">

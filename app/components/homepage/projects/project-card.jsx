@@ -63,7 +63,7 @@ function ProjectCard({ project }) {
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">code:</span>
-            <span className="text-cyan-400"><a href={project.code} target='_blank'>{' ' + project.name}</a></span>
+            <span className="text-cyan-400"><button className='rounded-2xl py-0 ml-0.5 border-cyan-400 hover:underline hover:underline-offset-2 '><a href={project.code} target='_blank'>{' ' + project.name}</a></button></span>
             <span className="text-gray-400">,</span>
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
